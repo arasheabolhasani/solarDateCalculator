@@ -1,0 +1,72 @@
+@font-face {
+    font-family: Vazir;
+    src: url(Vazirmatn.ttf);
+}
+
+body {
+    font-family: Vazir;
+    padding: 0;
+    margin: 0;
+}
+
+input,
+button,
+select {
+    font-family: inherit;
+}
+
+input,
+select {
+    -ms-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+}
+
+.btn {
+    width: 120px;
+}
+
+.btn-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto 20px;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.form-control {
+    width: 6rem;
+    padding: 0;
+    text-align: center;
+    margin: 2px;
+    /* border: 1px solid #333; */
+}
+
+.heading {
+    width: 100%;
+    text-align: center;
+    margin: 2rem auto 2rem;
+}
+
+#gregorianToJalali {
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 900;
+    margin: 20px auto 20px;
+}
